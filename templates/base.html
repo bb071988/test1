@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flask Template Example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}"/> -->
+        <!--./action/.virtualenvs/jinja/lib/python2.7/site-packages/jinja2 look here for static files -->
+        
+    </head>
+    <body>
+        <div id="main">
+            <h2>This is part of my base template - for Jedi</h2>
+            <br>
+            {% block content %}{% endblock %}
+            <br>
+            <h2>This is part of my base template</h2>
+        </div>
+    </body>
+</html>
